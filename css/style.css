@@ -1,0 +1,164 @@
+
+
+/*---- Commun ----*/
+
+body{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(26, 25, 25);
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+
+.main{
+    width: 1052px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container{
+    text-align: center;
+
+}
+ 
+/*---- header ----*/
+
+header{
+    background-color: rgb(245, 241, 237);
+    padding-left: 25px;
+    height: 300px;
+}
+
+/*---- Main ----*/
+.main{
+    background-color: rgb(245, 241, 237);;
+}
+
+.img-catalogue{
+    display: flex;
+    background-color: rgb(26, 25, 25);
+    box-shadow: 2px 2px 2px rgb(19, 18, 18);
+    margin-top: 20px;
+    z-index: 100;
+}
+
+.main-photo{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+
+}
+
+.gant{
+    border: 2px solid rgb(51, 49, 49);
+    margin-top: 20px;
+    background-color: rgb(245, 241, 237);;
+    box-shadow: 2px 2px 2px rgb(19, 18, 18);
+}
+
+.vente{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.v{
+    background-color: rgb(14, 13, 13);
+    font-size: 0.8em;
+    color: rgb(168, 163, 163);
+    height: 30px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 2px rgb(34, 33, 33);
+    text-shadow: 1px 2px 2px rgb(34, 33, 33);
+}
+
+.prixbarre{
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    text-decoration-line: line-through;
+    font-size: 1,5rem;
+    padding-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.orange{
+    color: rgb(199, 113, 81);
+}
+
+.pourcentage{
+    width: 85px;
+    height: 50px;
+    line-height: 50px;
+    background-color: rgb(14, 13, 13);
+    box-shadow: 2px 2px 2px rgb(34, 33, 33);
+    text-shadow: 2px 2px 2px rgb(199, 113, 81);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.prix{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    text-shadow: 2px 2px 2px rgb(199, 113, 81);
+}
+
+.photo{
+    position: relative;
+}
+
+.etq{
+    position: absolute;
+    top: 10px;
+    right: -20px;
+    
+}
+
+.nav-bottom a{
+    color: rgb(27, 27, 26);
+    text-decoration: none;
+    justify-content: space-around;
+    font-size: 1.6rem bold;
+    margin: 20px;
+    background-color: rgb(245, 241, 237);;
+}
+
+.style{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(14, 13, 13);
+    text-align: center;
+}
+
+/*---- FOOTER ----*/
+
+.footer-article{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: rgb(212, 208, 208);
+    margin: 50px;
+}
+
+.vignette p{
+    color: rgb(139, 139, 134);
+}
+
+.vignette a{
+    justify-content: space-between;
+    padding: 40px;
+
+}
+
+
+
+
