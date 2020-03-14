@@ -13,3 +13,5 @@ A brief overview of the important points of natural referencing and UX-UI.
 By the way a great teacher.
 Here is the assessment.
 Next week to attack Javascript.
+
+It's my work now
