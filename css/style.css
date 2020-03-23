@@ -1,4 +1,6 @@
-
+*{
+    box-sizing: border-box;
+}
 
 /*---- Commun ----*/
 
@@ -25,10 +27,73 @@ body{
  
 /*---- header ----*/
 
-header{
+.header{
     background-color: rgb(245, 241, 237);
-    padding-left: 25px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
     height: 300px;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(8, 1fr);
+    
+}
+
+.logo{
+    grid-column: 2 / span 2;
+    grid-row: 3 / span 2;
+    padding-top: 20px;
+    border-left: 1px solid rgb(234, 159, 5);
+    padding-left: 10px;
+}
+.logo-string span{
+    color: rgb(234, 159, 5);
+}
+.logo-string{
+    grid-column: 2 / span 2;
+    grid-row: 4 / span 1;
+    margin-top: 20px;
+    color: grey;
+    padding-left: 10px;
+}
+
+.container-panier{
+   grid-column: 5 / span 3;
+   grid-row: 2 / span 1;
+   border: 2px solid grey;
+   margin-bottom: 20px;
+
+}
+.header p{
+    grid-row: 3 / span 1;
+    grid-column: 7 /span 1;
+    color: grey;
+}
+.icons{
+    padding-right: 5px;
+}
+.link{
+    padding: 0;
+   margin: 0 40px;
+   
+}
+.container-nav{
+    grid-row: 4 / span 1;
+    grid-column: 4 / span 4;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.nav{
+    display: inline;
+    padding: 5px;
+    margin: 0 20px;
+    text-decoration: none;
+    color: grey;
+    border-left: 2px solid grey;
+}
+.container-panier span{
+    color: grey;
+    font-size: medium;
 }
 
 /*---- Main ----*/
@@ -56,6 +121,10 @@ header{
     margin-top: 20px;
     background-color: rgb(245, 241, 237);;
     box-shadow: 2px 2px 2px rgb(19, 18, 18);
+}
+
+.main-photo .gant:hover{
+    transform: scale(1.1);
 }
 
 .vente{
@@ -137,6 +206,8 @@ header{
     flex-wrap: wrap;
     background-color: rgb(14, 13, 13);
     text-align: center;
+    width: 100%;
+    z-index: 100;
 }
 
 /*---- FOOTER ----*/
